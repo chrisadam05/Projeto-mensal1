@@ -27,10 +27,10 @@ public class Carro {
 
     @Override
     public String toString(){
-        return  "Id: " + Id +
-                "Marca: " + marca +
-                "Modelo: " + modelo +
-                "Ano: " + ano +
-                "Preco: " + preco;
+        return  "Id : " + Id +
+                "\nMarca : " + marca +
+                "\nModelo : " + modelo +
+                "\nAno : " + ano +
+                "\nPreco : " + preco;
     }
 }

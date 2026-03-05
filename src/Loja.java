@@ -66,4 +66,11 @@ public class Loja {
             }
         }
     }
+    public void valorTotalemEstoque(){
+        double total = 0;
+        for (Carro c : carros){
+            total += c.getPreco();
+        }
+        System.out.println("Valor total em estoque : " + total);
+    }
 }
